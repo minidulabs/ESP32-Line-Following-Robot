@@ -33,8 +33,7 @@ A simple 4-wheel line-following robot built using ESP32, IR sensors, and a motor
 
 The main code file is `esp32_line_follower.ino`, written in Arduino IDE format. It handles sensor reading and motor control logic.
 
-
-[Uploading esp32_line_follow// ESP32 4-Wheel Line Follower Robot
+// ESP32 4-Wheel Line Follower Robot
 // Created by Minidu – Modified from Arduino 2-wheel example
 
 #define IR_LEFT_SENSOR 34     // GPIO34 for Left IR sensor
@@ -105,6 +104,5 @@ void stopMotors() {
   digitalWrite(RIGHT_MOTOR_FORWARD, LOW);
   digitalWrite(RIGHT_MOTOR_BACKWARD, LOW);
 }
-er.ino.ino…]()
 
 
